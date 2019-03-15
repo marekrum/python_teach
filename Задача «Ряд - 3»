@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+if a % 2 != 0:
+    for b in range(a, b-1, -2):
+        print(b)
+else:
+    for b in range(a-1, b-1, -2):
+        print(b)

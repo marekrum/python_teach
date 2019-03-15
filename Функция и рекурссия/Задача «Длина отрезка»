@@ -1,0 +1,10 @@
+a = []
+for i in range(4):
+    a.append(float(input()))
+
+def dist(a):
+    d = (a[2] - a[0])**2 + (a[3] - a[1])**2
+    s = d ** (1/2)
+    return(s)
+    
+print(dist(a))

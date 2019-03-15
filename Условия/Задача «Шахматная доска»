@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+x = a + b
+y = c + d
+if (x + y) % 2 == 0:
+    print ('YES')
+else:
+    print ('NO')

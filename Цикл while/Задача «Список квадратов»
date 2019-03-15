@@ -1,0 +1,8 @@
+N = int(input())
+a = 1
+while N >= a:
+    if a**2 <= N:
+        print(a**2)
+    else:
+        break
+    a += 1
